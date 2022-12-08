@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link type="image/x-icon" rel="icon" href="../access/icon/favicon.ico">
+    <title>task1</title>
+     <style>
+       
+       #but{
+        font-size: 26px;
+         margin-left: 353px;
+         color: rgb(8, 0, 124)
+        
+       }
+       p{
+        font-size: 20px;
+       }
+        h2{
+             font-size: 40px;
+            text-align: center;
+            color: rgb(87, 80, 71);
+            
+        }
+        
+        
+        #email{
+            padding: 2px 90px;
+        }
+        #gen{
+            display: inline;
+          
+        }
+        #ln{
+            margin-left: 100px;
+        }
+        
+        #cp{
+            margin-left: 107px;
+        }
+        #ho{
+            margin-left: 127px;
+        }
+        #check1{
+            margin-left: 45px;
+        }
+        #come{
+            margin-left: 57px;
+        }
+        #age{
+            margin-left: 62px;
+        }
+       label{
+        color: rgb(5, 8, 170);
+       }
+       #range{
+        margin-left: 95px;
+       }
+       #value{
+        color: black;
+       }
+       
+       #Rad1{
+        margin-left: 2px;
+       }
+       #num{
+        padding: 1px 3px;
+        margin-left: -50px;
+       }
+       form{
+        margin: auto;
+        border: 5px solid #443737;
+       border-radius: 55px;
+       width: 473px;
+       height: 783px;
+        padding: 10px;
+       
+       }
+      
+    
+     </style>
+     
+</head>
+<body  style=>
+ 
+    
+<form>  
+    <header><h2 >Create Account</h2>
+        <hr></header>
+        
+    <label >First name*</label>
+    <label id="ln">Last name</label><br>
+    <input id="firatname" type="text" placeholder="enter your first name" autofocus required autocomplete="off" /> 
+    <input id="Lastname" type="text" placeholder="enter your second name" required autocomplete="off"/> 
+     <br><br>
+     <label>Email*</label><br>
+     <input id="email" type="email" placeholder="enter your email" required autocomplete="off"/> 
+     <br><br>
+     <label >Password*</label>
+     <label id="cp">Confirm Password*</label><br>
+     <input id="pass" type="password" placeholder="enter your password" required autocomplete="off"/> 
+     <input id="Confirm" type="password" placeholder="enter your password again" required autocomplete="off"/> 
+     <br><br>
+
+
+     <label id="gen">Gender:</label>
+     <label  id="ho" >Hobbies</label><br>
+     <input id="Rad1" type="radio" value="Male" name="Gender"/>
+     <label id="value" for="Rad1">Male</label>
+     <input id="Rad2" type="radio" value="Female" name="Gender"/>
+     <label id="value" for="Rad2">Female</label>
+     
+   
+     <input id="check1" type="checkbox" value="Music" name="hop1"/>
+     <label id="value" for="check1">Music</label>
+     
+     <input id="check2" type="checkbox" value="Sports" name="hop2"/>
+     <label id="value" for="check2">Sports</label>
+    
+     <input id="check3" type="checkbox" value="Travel"name="hop3"/>
+     <label id="value" for="check3">Travel</label>
+    
+     <input id="check4" type="checkbox" value="Movies" name="hop4"/>
+     <label id="value"for="check4">Movies</label>
+     <br><br> 
+     
+     <label id="effect_label" for="state"> Source of income :</label>
+     <label for="range" id="come" >Income</label>
+     <br>
+     <select id="state">
+        <option value="0">Employed</option>
+        <option value="1"><A></A></option>
+        <option value="2">B</option>
+        <option value="3">C</option>
+        <option value="4">D</option>
+         
+     </select>
+     <input type="range" id="range" />
+     <br><br>
+     <label id="file" for="fileuploader" >Upload Profile Picture</label> 
+     <label for="num" id="age">Age</label><br>
+     <input type="file" id="fileuploader" />
+     <input type="number" id="num" value="18"/>
+     
+     <br><br>
+     <label>Bio</lablel><br>
+     <textarea  id="txt_notes" rows="8" cols="40"  > </textarea>
+     
+    
+     <input type="hidden" id="txt_hidden" value="0#ge84&7nhg849y*hog49k-iun4klj">
+
+     <hr>
+     <header>
+         <p>*required</p>
+         <input type="button" value="Create" id="but"/>
+     </header>
+
+
+</form>
+
+<br>
+<br><br><br><br><br><br><br><br><br><br>
+
+    
+</body>
+</html>

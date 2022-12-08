@@ -1,0 +1,96 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1 img{
+   
+    width: 100%;
+}
+.sec1 .div1{
+    position: absolute;
+    border: 0px solid rgb(255 148 84);
+    background-color: rgb(255 148 84);
+    font-size: 27px;
+    margin-left: -12px;
+    text-align: center;
+    
+    top: 587px;
+}
+
+.div2{
+    position: absolute;
+    border: 0px solid #ecf0f3;
+    background-color: #ecf0f3;
+    font-size: 23px;
+    margin-top: -18px;
+    margin-left: -12px;
+    text-align: center;
+    
+    top: 729px;
+    
+}
+.div3{
+    position: absolute;
+    border: 0px solid #31313b;
+    background-color: rgb(255 148 84);
+    margin-left: -9px;
+    text-align: left;
+    font-size: 18px;
+    width: 30%;
+    height: 101px;
+    padding: 10px;
+    top: 788px;
+    
+}
+.div4{
+    border: 0px solid #31313b;
+    background-color: #ecf0f3;
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    width: 42%;
+    height: 101px;
+    padding: 20px;
+    margin-left: 391px;
+    margin-top: -121px;
+    top: 909px;
+    
+}
+.div5{
+    position: absolute;
+    border: 0px solid #31313b;
+    background-color: rgb(255 148 84);
+    text-align: left;
+    font-size: 18px;
+    width: 30%;
+    height: 101px;
+    padding: 10px;
+    margin-left: 959px;
+    margin-top: -122px;
+    top: 910px;
+}
+.sec1 h2{
+    color: #31313b;
+    position: absolute;
+    font-size: 32px;
+    top: 245px;
+    right: 568px;
+
+}
+.sec1 h5{
+    color: #31313b;
+    position: absolute;
+    font-size: 25px;
+    top: 277px;
+    right: 452px;
+
+}
+.sec1 input{
+    color: #fe9961;
+    position: absolute;
+    font-size: 32px;
+    top: 376px;
+    right: 641px;
+    background: transparent;
+}

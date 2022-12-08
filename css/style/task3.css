@@ -1,0 +1,36 @@
+.word {
+   font-size: 71px;
+   color: #81362a;
+   font-weight: 600;
+   text-transform: capitalize;
+   border: 2px solid gray;
+   text-align: center;
+   padding: 27px;
+   width: 222px;
+   margin: auto;
+   position: relative;
+}
+
+   .word::before {
+       content: '';
+       /*background: yellow;*/
+       width: 65px;
+       height: 55px;
+       position: absolute;
+       border-top: 5px solid red;
+       border-left: 5px solid red;
+       top: 20px;
+       left: 20px;
+   }
+
+   .word::after {
+       content: '';
+       /*background: yellow;*/
+       width: 65px;
+       height: 55px;
+       position: absolute;
+       border-bottom: 5px solid red;
+       border-right: 5px solid red;
+       bottom: 20px;
+       right: 20px;
+   }
